@@ -57,7 +57,6 @@ a{
   section .home_parti,
   section .service_parti,
   section .portfolio_parti,
-  section .about_parti ,
   section .team_parti{
     padding: 100px 0;
   }
@@ -104,12 +103,64 @@ a{
   }
 
   /*-------------------------------------------about_parti section-----------------------------------  */
-
-  .about_parti  img{
-   width: 150px;
-   height: 150px;
-   border-left: 5px solid grey;
+  section .about_parti{
+    padding: 100px 0 1000px 0;
+    margin-bottom: 5000px;
   }
+
+  .about_parti .timeline{
+    position: relative;
+    max-width: 1200px;
+    /* margin: 100px auto; */
+  }
+
+  .about_parti #content{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+  }
+
+  .about_parti .text-box{
+    /* padding: 20px 30px; */
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+
+  .about_parti .timeline .left-container{
+    left: -25%;
+  }
+
+  .about_parti .timeline .right-container{
+    right:-25%;
+  }
+
+   .about_parti .timeline #content img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    /* right: -130px; */
+    right: -60px;
+    top: 3px;
+   z-index: 2px;
+   }
+
+   .about_parti .right-container img{
+
+    left: -100px;
+   }
+
+   .about_parti .timeline::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: rgb(208, 202, 202);
+    top: 5px;
+    left: 48%;
+    margin-left: -3px;
+    z-index: -1;
+   }
 
   /* ----------------------------------------------team_parti section---------------------------------------------- */
 

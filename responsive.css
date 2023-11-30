@@ -1,0 +1,29 @@
+@media screen and(max-width:600px){
+   .about_parti .timeline{
+    margin: 50px auto;
+   } 
+
+   .about_parti .timeline::after{
+    left: 31px;
+   } 
+   .about_parti #content{
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+   } 
+   .about_parti .text-box{
+    font-size: 13px;
+   } 
+
+
+   .about_parti .right-container{
+    left: 0;
+   } 
+
+ 
+
+   .about_parti .right-container img{
+    left: 10px;
+   } 
+
+}
